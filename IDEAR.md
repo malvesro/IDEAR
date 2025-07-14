@@ -21,7 +21,7 @@ Histórico de Versões do Processo IDEAR
 
 
 
-![Logo do IDEAR](file:///C:/Users/malve/Downloads/IDEAR%20-%20compacto.png)
+![Logo do IDEAR](IDEAR.png)
 
 O logo foi cuidadosamente desenhado para refletir os princípios fundamentais do IDEAR:
 
