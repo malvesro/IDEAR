@@ -145,6 +145,70 @@ Inspirado pelos princípios de Domain-Driven Design (Eric Evans), Clean Architec
 
 ## 5.Apresentando o IDEAR: Uma Visão Guiada
 
+```mermaid
+graph TD
+    subgraph I - Iniciar
+        I1["📣 Sinalização da Iniciativa (OBRIGATÓRIA)"]
+        I2["🧠 Kickoff com o Negócio (OBRIGATÓRIA)"]
+        I1 --> I2
+    end
+
+    subgraph D - Delinear
+        D1["🔍 Kickoff Técnico (OBRIGATÓRIA)"]
+    end
+
+    subgraph E - Elaborar
+        E1["🎨 Co-design Colaborativo (RECOMENDADA)"]
+        E2["📄 Registro de ADRs (OBRIGATÓRIA)"]
+        E3["📐 Documentação C4 (RECOMENDADA)"]
+        E1 --> E2
+        E2 --> E3
+    end
+
+    subgraph A - Aprender
+        A1["👥 Acompanhamento e Habilitação (OBRIGATÓRIA)"]
+    end
+
+    subgraph R - Reforçar
+        R1["📚 Lições Aprendidas (RECOMENDADA)"]
+    end
+
+    Seguranca[🔐 Segurança Transversal]
+
+    classDef security-box fill:#F7D94D,stroke:#E0C02E,stroke-width:3px,color:#000
+    class Seguranca security-box
+
+
+    I2 --> D1
+    D1 --> E1
+    E3 --> A1
+    A1 --> R1
+
+   
+    R1 --> I1
+
+   
+    Seguranca --- I2
+    Seguranca --- D1
+    Seguranca --- E2
+    Seguranca --- A1
+    Seguranca --- R1
+
+   
+    style I1 fill:#ADD8E6,stroke:#333,stroke-width:2px,color:#000
+    style I2 fill:#ADD8E6,stroke:#333,stroke-width:2px,color:#000
+
+    style D1 fill:#87CEEB,stroke:#333,stroke-width:2px,color:#000
+
+    style E1 fill:#FFD700,stroke:#333,stroke-width:2px,color:#000
+    style E2 fill:#FFD700,stroke:#333,stroke-width:2px,color:#000
+    style E3 fill:#FFD700,stroke:#333,stroke-width:2px,color:#000
+
+    style A1 fill:#FFA500,stroke:#333,stroke-width:2px,color:#FFF
+
+    style R1 fill:#6495ED,stroke:#333,stroke-width:2px,color:#FFF
+```
+
 O processo IDEAR não é apenas um acrônimo; é uma filosofia de trabalho que organiza as melhores práticas da engenharia de software moderna em um fluxo de valor contínuo. Cada fase foi desenhada com base nos princípios de **Domain-Driven Design (DDD)**, **Clean Architecture** e **Team Topologies**, para garantir que não estamos apenas construindo o software _corretamente_, mas também construindo o _software certo_ e, ao mesmo tempo, _fortalecendo nossos times_.
 
 Além de sua base filosófica, o ciclo IDEAR pode ser potencializado por uma camada estratégica: os **OKRs (Objectives and Key Results)**. Eles atuam como uma "estrela-guia", garantindo que cada fase — desde a concepção até o aprendizado — esteja alinhada não apenas com as boas práticas, mas com o que é mais importante para a organização. Na prática, os OKRs definidos na fase **Iniciar** são revisitados na fase **Reforçar**. Isso cria um poderoso ciclo de feedback que nos permite perguntar não apenas "concluímos o trabalho?", mas sim "**o trabalho que concluímos gerou o impacto que esperávamos?**". Dessa forma, o IDEAR transcende de um processo de excelência tática para se tornar um motor de impacto estratégico, conectando o código do dia a dia aos resultados que realmente importam.
