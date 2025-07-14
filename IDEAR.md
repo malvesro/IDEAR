@@ -965,4 +965,4 @@ A adoção disciplinada do IDEAR contribuirá para a evolução arquitetural e d
 
 - A fase "Reforçar", ligando de volta ao aprendizado organizacional e, crucialmente, aos OKRs? Essa é a cola estratégica. Não estamos apenas construindo software; estamos medindo seu impacto e melhorando continuamente. Garante que o trabalho _feito_ gere o impacto _esperado_.
 
-<center>Time Mercúrio - Márcio Rosner</center>
+<center>Autor: Márcio A. A. Rosner</center>
