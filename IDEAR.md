@@ -21,7 +21,7 @@ Histórico de Versões do Processo IDEAR
 
 
 
-![Logo do IDEAR](IDEAR_menor.png)
+![Logo do IDEAR](IDEAR_novo.png)
 
 O logo foi cuidadosamente desenhado para refletir os princípios fundamentais do IDEAR:
 
